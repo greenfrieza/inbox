@@ -1,0 +1,35 @@
+const assert = require('assert');
+const ganache = require('ganache-cli');
+const Web3 = require('web3');
+const web3 = new Web3(ganache.provider());
+
+/*
+class Car {
+  park() {
+    return 'stopped';
+  }
+  drive() {
+    return 'vroom';
+  }
+}
+
+
+// initialise variable car in the outer scope
+let car;  
+
+beforeEach(() => {
+  car = new Car();
+});
+// now car is an instance of Car
+
+// run testing block
+describe('Car', () => {
+  it('can park', () => {
+    assert.equal(car.park(), 'stopped');
+  });
+
+  it('can drive', () => {
+    assert.equal(car.drive(), 'vroom');
+  });
+});
+*/
